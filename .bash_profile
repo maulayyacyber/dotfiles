@@ -1,3 +1,15 @@
+# MySQL
+export PATH="/usr/local/mysql/bin:$PATH"
+
+# PHP
+export PATH=/usr/local/php5/bin:$PATH
+
+# COMPOSER
+alias composer="php /usr/local/bin/composer.phar"
+
+# RBENV
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+	
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
